@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('checkout') {
             steps {
-                sh 'git clone git@github.com:gummallasainathreddy/jenkinsfile-docker.git'
+                sh 'git clone git@github.com:gummallasainathreddy/jenkins-docker.git'
             }
         }
          stage('install docker') {
